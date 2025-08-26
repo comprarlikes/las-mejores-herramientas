@@ -1,0 +1,220 @@
+/* --- INICIO DE ESTILOS PERSONALIZADOS CONSOLIDADOS --- */
+body#layout .hidden,
+body#layout .invisible {
+  display: inherit;
+}
+body#layout .centered-bottom {
+  position: relative;
+}
+body#layout .section.featured-post,
+body#layout .section.main,
+body#layout .section.vertical-ad-container {
+  float: left;
+  width: 55%;
+}
+body#layout .sidebar-container {
+  display: inline-block;
+  width: 39%;
+}
+body#layout .centered-bottom:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+body#layout .hamburger-menu,
+body#layout .search {
+  display: none;
+}
+/* Estilos para el contenedor del botón de comentarios */
+.show-comments-button-container {
+  text-align: center;
+  margin: 30px 0;
+}
+#show-comments-button {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#show-comments-button:hover {
+  background-color: #357ae8;
+}
+/* Estilos para los botones de compartir */
+#share-buttons-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.share-button {
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+.share-button:hover {
+  background-color: #e0e0e0;
+}
+.share-button.whatsapp { background-color: #4285F4; color: white; }
+.share-button.twitter { background-color: #4285F4; color: white; }
+.share-button.facebook { background-color: #4285F4; color: white; }
+.share-button.telegram { background-color: #4285F4; color: white; }
+.share-button.linkedin { background-color: #4285F4; color: white; }
+.share-button.email { background-color: #4285F4; color: white; }
+.share-button.whatsapp:hover { background-color: #128C7E; }
+.share-button.twitter:hover { background-color: #0c85d0; }
+.share-button.facebook:hover { background-color: #145FB3; }
+.share-button.telegram:hover { background-color: #005a8d; }
+.share-button.linkedin:hover { background-color: #07478D; }
+.share-button.email:hover { background-color: #a3382c; }
+body.item-view .byline.post-labels a {
+    background-color: #ffffff !important;
+    color: #0077c8;
+}
+/* Estilos para el Pie de Página (Footer) */
+.main-footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+.main-footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+.main-footer .footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.main-footer h3 {
+  color: #65AEE7;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+.main-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-footer ul li {
+  margin-bottom: 10px;
+}
+.main-footer ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.main-footer ul li a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+.main-footer .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.main-footer .social-icons img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+.main-footer .social-icons a:hover img {
+  transform: scale(1.1);
+}
+.main-footer .footer-bottom {
+  text-align: center;
+  border-top: 1px solid #34495e;
+  padding-top: 20px;
+  margin-top: 30px;
+  font-size: 0.85em;
+  color: #bdc3c7;
+}
+@media (max-width: 768px) {
+  .main-footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main-footer .footer-section {
+    min-width: 90%;
+  }
+  .main-footer .social-icons {
+    justify-content: center;
+  }
+}
+/* Estilos para la Lista de Categorías (Sidebar) */
+.tag-link-list-wrapper {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.tag-link-list-wrapper h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 1.6em;
+  font-weight: 600;
+}
+.tag-link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.tag-link-list li {
+  margin: 0;
+  border-bottom: none;
+}
+.tag-link-list li a {
+  display: block;
+  padding: 12px 15px;
+  background-color: transparent;
+  color: #337ab7;
+  text-decoration: none;
+  font-weight: normal;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 0;
+}
+.tag-link-list li a:hover {
+  background-color: #f0f8ff;
+  color: #23527c;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .tag-link-list-wrapper {
+    padding: 15px;
+    margin: 30px 10px;
+  }
+  .tag-link-list-wrapper h3 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+  }
+  .tag-link-list li a {
+    padding: 10px 15px;
+  }
+}
+@media (max-width: 480px) {
+  .tag-link-list-wrapper {
+    margin: 20px 5px;
+  }
+  .tag-link-list li a {
+    padding: 8px 12px;
+  }
+}
+/* --- FIN DE ESTILOS PERSONALIZADOS ultimo--- */
