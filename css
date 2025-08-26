@@ -80,81 +80,81 @@ body.item-view .byline.post-labels a {
     background-color: #ffffff !important;
     color: #0077c8;
 }
-/* Estilos para el Pie de Página (Footer) - CORREGIDO CON MAYOR ESPECIFICIDAD */
+/* Estilos para el Pie de Página (Footer) - VERSIÓN REFORZADA CON !IMPORTANT */
 #footer .main-footer {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  padding: 40px 20px;
-  line-height: 1.6;
+  background-color: #2c3e50 !important;
+  color: #ecf0f1 !important;
+  padding: 40px 20px !important;
+  line-height: 1.6 !important;
 }
 #footer .main-footer .footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 30px;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-around !important;
+  gap: 30px !important;
 }
 #footer .main-footer .footer-section {
-  flex: 1;
-  min-width: 250px;
-  margin-bottom: 20px;
+  flex: 1 !important;
+  min-width: 250px !important;
+  margin-bottom: 20px !important;
 }
 #footer .main-footer h3 {
-  color: #65AEE7;
-  margin-bottom: 15px;
-  font-size: 1.8em;
-  text-transform: uppercase;
+  color: #65AEE7 !important;
+  margin-bottom: 15px !important;
+  font-size: 1.8em !important;
+  text-transform: uppercase !important;
 }
 #footer .main-footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 #footer .main-footer ul li {
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 #footer .main-footer ul li a {
-  color: #ecf0f1;
-  text-decoration: none;
-  transition: color 0.3s ease;
+  color: #ecf0f1 !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease !important;
 }
 #footer .main-footer ul li a:hover {
-  color: #3498db;
-  text-decoration: underline;
+  color: #3498db !important;
+  text-decoration: underline !important;
 }
 #footer .main-footer .social-icons {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
+  display: flex !important;
+  gap: 15px !important;
+  margin-top: 10px !important;
 }
 #footer .main-footer .social-icons img {
-  width: 28px;
-  height: 28px;
-  transition: transform 0.2s ease;
+  width: 28px !important;
+  height: 28px !important;
+  transition: transform 0.2s ease !important;
 }
 #footer .main-footer .social-icons a:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
 }
 #footer .main-footer .footer-bottom {
-  text-align: center;
-  border-top: 1px solid #34495e;
-  padding-top: 20px;
-  margin-top: 30px;
-  font-size: 0.85em;
-  color: #bdc3c7;
+  text-align: center !important;
+  border-top: 1px solid #34495e !important;
+  padding-top: 20px !important;
+  margin-top: 30px !important;
+  font-size: 0.85em !important;
+  color: #bdc3c7 !important;
 }
 @media (max-width: 768px) {
   #footer .main-footer .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
   }
   #footer .main-footer .footer-section {
-    min-width: 90%;
+    min-width: 90% !important;
   }
   #footer .main-footer .social-icons {
-    justify-content: center;
+    justify-content: center !important;
   }
 }
 /* Estilos para la Lista de Categorías (Sidebar) */
